@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Serif', serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+.wrapepr {
+    padding-top: 50px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.search {
+    background-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.search__input {
+    border-radius: 10px;
+    width: 100%;
+    font-size: 30px;
+    padding: 10px 5px;
+    font-family: 'Roboto Serif', serif;
+}
+
+.list {
+    padding-top: 20px;
+}
+
+.item {
+    padding: 10px 5px;
+}
+
+.item:nth-child(odd) {
+    background-color: rgb(187, 187, 187);
+}
